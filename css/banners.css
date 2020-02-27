@@ -1,0 +1,239 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('../img/bg-body2.jpg');
+  /* Full height */
+  height: 100%; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.container{
+	padding: 0;
+	margin: auto;
+	top: 0;
+}
+
+.h1-banner,
+.p-banner,
+.btn-banner,
+button {
+  margin: 0;
+  padding:  0;
+  font-family: 'Lato';
+}
+
+.h1-banner {
+  font-size: 1.8em;
+  padding: 5px 0;
+  font-weight: 300;
+}
+
+.p-banner {
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+
+.banner {
+  width: 100%;
+  height:160px;
+  display: table;
+  text-align: center;
+  background: transparent;
+  color: white;
+  opacity: 0.4;
+  border: #fff 1px solid;
+}
+
+.banner-lat {
+  width: 120px;
+  height: 600px;
+  display: table;
+  text-align: center;
+  background: transparent;
+  color: white;
+  padding: 0px  20px 20px 20px;
+}
+
+.banner-lat-up{
+  width: 100%;
+  height:160px;
+  display: table;
+  text-align: center;
+  background: transparent;
+  color: white;
+  opacity: 0.4;
+  border: #fff 1px solid;
+}
+
+.banner-lat-down{
+  width: 120px;
+  height: 580px;
+  display: table;
+  text-align: center;
+  background: transparent;
+  color: white;
+  border: #fff 1px solid;
+  opacity: 0.4;
+  padding: 20px  20px 20px 20px;
+}
+.banner-lat-r{
+  width: 120px;
+  height: 760px;
+  display: table;
+  text-align: center;
+  background: transparent;
+  color: white;
+  border: #fff 1px solid;
+  opacity: 0.4;
+  padding: 20px  20px 20px 20px;
+}
+
+.conatiner-bannrlat{
+  padding: 0px 20px 20px 20px;
+}
+
+.section-banner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.btn-bgstroke {
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 0 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  height: 50px;
+  line-height: 47px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.btn-bgstroke:hover {
+  border: 1px solid white;
+  background-color: white;
+  color: #33cccc;
+}
+
+.slide{
+	padding: 20px  0px 0px 0px;
+}
+
+.logo-header{
+	padding: 0px 0px 0px 50px;
+  width: 80%;
+}
+
+.icon-nav{
+	color: #fff;
+	font-size: 35px;
+	padding: 0%  5% 0% 0%;
+}
+
+.banner-abajo{
+  display: none;
+}
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 992px) {
+	.navbar-toggler{
+  background-image: url('../img/icon-menu.png');
+  background-color: #fff;
+	z-index: 1000;
+  padding:0px;
+	}
+  .banner-lat{
+  	display: none;
+  }
+  .w-100 {
+    width:150%!important;
+    position: relative;
+    left: -55px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .logo-header{
+    padding: 0px 0px 0px 30px;
+    width: 60%;
+  }
+	.navbar-toggler{
+		z-index: 1000;
+		color: #fff;
+	}
+  .banner {
+  	  width: 100%;
+ 	    height: 10px;
+      border: #fff 1px solid;
+  }
+
+  .banner-abajo{
+      width: 100%;
+      height: 10px;
+      border: #fff 1px solid;
+  }
+
+  .icons-res{
+    position: relative;
+    left: 35%;
+    padding: 10px 0px 0px 10px;
+  }
+
+  .banner-lat-r{
+  width: 10px;
+  height: 100%;
+  display: table;
+  text-align: center;
+  background: transparent;
+  color: white;
+  border: #fff 1px solid;
+  padding: 0px  0px 20px 0px;
+  display: none;
+  }
+
+.conatiner-bannrlat{
+  padding: 100px 0px 0px 20px;
+}
+
+  .h1-banner {
+  font-size: 0.8em;
+  padding: 2px 0;
+  font-weight: 150;
+}
+
+.p-banner {
+  font-size: 0.8em;
+  font-weight: 50;
+  letter-spacing: 3px;
+}
+
+.btn-bgstroke {
+  font-size: 10px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 0 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  height: 25px;
+  line-height: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+
+}
